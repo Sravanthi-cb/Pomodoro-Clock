@@ -1,0 +1,14 @@
+body {
+	background-image: url("");
+	background-size: 100%;
+	background-attachment: fixed;
+	color: black;
+	font-family: 'Acme', sans-serif;
+}
+h2 {
+	display:inline;
+	
+}
+#start{
+	margin: 10px;
+}

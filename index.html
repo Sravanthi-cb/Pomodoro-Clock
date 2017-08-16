@@ -1,0 +1,41 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+    <title>Pomodoro clock</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- CSS File -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container text-center">
+	  <div class="row">
+		<h1>Pomodoro Clock</h1>
+		<div class="timeDiv col-xs-6">
+			<h1 id="sessionTitle">Session Time</h1>
+			<button class="btn btn-primary" id="addClock">+</button>
+			<h2 id="timeType"></h2>
+			<h2 id="display">5</h2>
+			<button class="btn btn-primary" id="subClock">-</button>
+		    <button class="btn btn-primary" id="reset">Reset</button>
+		</div>
+		<div class="breakDiv col-xs-6">
+		   	<h1 id="breakTitle">Break Time</h1>
+			<button class="btn btn-primary" id="addBreak">+</button>
+			<h2 id="displayNum">5</h2>
+			<button class="btn btn-primary" id="subBreak">-</button>		    
+		</div>
+		    <button class="btn btn-primary" id="start">Start</button>
+	  </div>		
+	</div>
+   <script src="script.js"></script>
+</body>
+</html>
